@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANTE PEBCHI</title>
+    <link rel="stylesheet" href="styles1c.css">
+</head>
+<body>
+    <header>
+        <div class="headerleft">
+            <a href="PEBCHI.html">
+                <img src="logo de pebchi.jpg" alt="logo de PEBCHI">
+            </a>
+        </div>
+        <nav class="headercenter">
+            <div class="menu"><a href="PEBCHI MENÚ.html" target="_self">MENÚ</a></div>
+            <div class="reserve"><a href="PEBCHI RESERVA.html" target="_self">RESERVA</a></div>
+            <div class="ubicacion">UBICACIÓN</div>
+            <div class="pedidoonline">PEDIDO ONLINE</div>
+            <div class="galeria">GALERÍA</div>
+            <div class="sobrenosotros">SOBRE NOSOTROS</div>
+        </nav>
+        <div class="headerright">
+            <img src="https://cdn-icons-png.flaticon.com/128/6364/6364542.png" alt="icono de tres barra">
+        </div>
+    </header>
+    <main>
+        <div class="reservation-container">
+            <h2 class="reservation-title">Reserva tu plaza</h2>
+            <div class="reservation-box">
+                
+                <div class="reservation-inputs">
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre">
+                        
+                        <label for="telefono">Teléfono de contacto</label>
+                        <input type="tel" id="telefono">
+                        
+                        <label for="personas">Números de personas</label>
+                        <input type="number" id="personas" min="1" value="1">
+                        
+                        <label for="email">Email de contacto</label>
+                        <input type="email" id="email">
+                        
+                        <button type="submit" class="submit-button">Confirmar Reserva</button>
+                    </form>
+                </div>
+                
+                <div class="reservation-calendar">
+                    <label for="fecha-reserva">Fecha</label>
+                    <input type="date" id="fecha-reserva" name="fecha-reserva" required>
+
+                    <label for="hora-reserva">Hora</label>
+                    <input type="time" id="hora-reserva" name="hora-reserva" value="13:00" required>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
